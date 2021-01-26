@@ -42,7 +42,7 @@ curl -sSL https://raw.githubusercontent.com/brigand/fast-nvm-fish/master/nvm.fis
 Or using [fisher](https://github.com/jorgebucaran/fisher):
 
 ```sh
-fisher add brigand/fast-nvm-fish
+fisher install architectcodes/fast-nvm-fish
 ```
 
 The `fish_user_paths` [universal variable](https://fishshell.com/docs/current/tutorial.html#tut_universal) must exist before running `nvm` commands. Run this once in your fish shell:
